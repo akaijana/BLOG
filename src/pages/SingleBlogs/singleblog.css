@@ -1,0 +1,53 @@
+/* General Reset */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Blog Container Styling */
+.blog-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Header */
+.blog-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Blog Avatar */
+.blog-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    object-fit: cover;
+}
+
+/* Blog Title */
+.blog-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Blog Description */
+.blog-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.btn{
+    width: 100px;
+}
